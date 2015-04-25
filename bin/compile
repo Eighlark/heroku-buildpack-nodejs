@@ -55,8 +55,8 @@ install_npm
 
 head "Building dependencies"
 cd $build_dir
-npm i yo gulp bower
 cd client
+npm i yo gulp bower
 npm i
 gulp build
 cd ..
