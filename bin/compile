@@ -58,7 +58,7 @@ cd $build_dir
 cd client
 npm i bower
 npm i
-ls node_modules/bower/bin
+node node_modules/bower/bin/bower install
 node node_modules/gulp/bin/gulp build
 cd ..
 build_dependencies
