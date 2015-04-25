@@ -55,6 +55,11 @@ install_npm
 
 head "Building dependencies"
 cd $build_dir
+npm i -g yo gulp bower
+cd client
+npm i
+gulp build
+cd ..
 build_dependencies
 
 ####### Create a Procfile if possible
